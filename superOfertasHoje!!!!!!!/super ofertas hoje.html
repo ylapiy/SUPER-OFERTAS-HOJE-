@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Promoções Imperdíveis!</title>
+  <style>
+  .dysplay{
+
+  background: #1c1c1c;
+  border-radius: 12px;
+  padding: 20px;
+  width: 120px;
+  height: 130px;
+  color: #00bcd4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  box-shadow: 0 0 10px #26d208;
+  transition: transform 0.2s;
+  justify-content: center;
+  }
+
+  .divpai{
+
+  display: flex;
+  justify-content: center;
+
+  }
+
+    .dysplay:hover {
+    transform: scale(1.05);
+  }
+
+  .dysplay img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  }
+
+    body {
+      background-color: rgb(30, 30, 30) ;
+      color: white;
+      font-family: 'Arial', cursive;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background-color: rgb(45, 45, 48);
+      color: #39FF14;
+      font-size: 3em;
+      animation: piscar 1s infinite;
+    }
+    @keyframes piscar {
+      0% { background-color: ; }
+      25%{background-color: ;}
+      35%{background-color: ;}
+    }
+    .banner-propaganda {
+      background-color: rgb(62, 62, 65);
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      border: 5px dashed rgb(0, 0, 0);
+      margin: 20px;
+    }
+    .popup {
+      position: fixed;
+      top: 30%;
+      left: 30%;
+      background-color: white;
+      border: 5px solid hotpink;
+      padding: 30px;
+      z-index: 9999;
+      box-shadow: 0 0 30px orange;
+    }
+    .conteudo {
+      padding: 40px;
+      font-size: 1.5em;
+      background: linear-gradient(45deg, lime, magenta, yellow);
+    }
+    footer {
+      background-color: rgb(45, 45, 48);;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    .anuncio-lateral {
+      position: absolute;
+      right: 0;
+      top: 100px;
+      width: 200px;
+      background: repeating-linear-gradient(45deg, red, yellow 10px);
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <header>SUPER OFERTAS HOJE!</header>
+  <div class="banner-propaganda">↓ Só aqui ofertas incriveis ↓
+  </div>
+
+    <div class="divpai">
+        <div class="dysplay">
+        <img src="monitor.jpg" alt="" height="100" width="100">
+        <p>R$ 82824824</p>
+        </div>
+        <div class="dysplay">
+        <img src="mouse.jpg" alt="" height="100" width="100">
+        <p>R$ 5873853535</p>
+        </div>
+        <div class="dysplay">
+        <img src="teclado.jpg" alt="" height="100" width="100">
+        <p>R$ 10000000000</p>
+        </div>
+    </div>
+    <p></p>
+  </div>
+  <footer>Todos os direitos reservados &copy; Propaganda Total 2025</footer>
+</body>
+</html>
