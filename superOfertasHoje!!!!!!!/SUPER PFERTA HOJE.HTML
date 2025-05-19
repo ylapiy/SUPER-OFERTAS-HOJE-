@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Promoções Imperdíveis!</title>
+  <style>
+    body {
+      background-color: #ff00ff;
+      color: lime;
+      font-family: 'Comic Sans MS', cursive;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: yellow;
+      padding: 20px;
+      text-align: center;
+      font-size: 3em;
+      animation: piscar 1s infinite;
+    }
+    @keyframes piscar {
+      0% { background-color: yellow; }
+      50% { background-color: red; }
+      100% { background-color: yellow; }
+    }
+    .banner-propaganda {
+      background-color: cyan;
+      padding: 30px;
+      text-align: center;
+      font-size: 2em;
+      border: 5px dashed red;
+      margin: 20px;
+    }
+    .popup {
+      position: fixed;
+      top: 30%;
+      left: 30%;
+      background-color: white;
+      border: 5px solid hotpink;
+      padding: 30px;
+      z-index: 9999;
+      box-shadow: 0 0 30px orange;
+    }
+    .conteudo {
+      padding: 40px;
+      font-size: 1.5em;
+      background: linear-gradient(45deg, lime, magenta, yellow);
+    }
+    footer {
+      background-color: #00ffff;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    .anuncio-lateral {
+      position: absolute;
+      right: 0;
+      top: 100px;
+      width: 200px;
+      background: repeating-linear-gradient(45deg, red, yellow 10px);
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <header>SUPER OFERTAS HOJE!</header>
+  <div class="banner-propaganda">💥 CLIQUE AQUI PARA GANHAR PRÊMIOS INCRÍVEIS 💥</div>
+  <div class="anuncio-lateral">🔔 Anúncio! Você é o visitante nº 1.000.000! Clique para ganhar!</div>
+  <div class="popup">⚠ ATENÇÃO! Sua chance de ganhar um iPhone grátis acaba em 30 segundos! ⚠</div>
+  <div class="conteudo">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel risus commodo viverra maecenas. 🔥🔥🔥</p>
+    <p>Não perca! Ofertas que só aparecem uma vez na vida!!!</p>
+  </div>
+  <footer>Todos os direitos reservados &copy; Propaganda Total 2025</footer>
+</body>
+</html>
